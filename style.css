@@ -1,0 +1,161 @@
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    height: 138px;
+    transition:all 0.5s ease-out;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(99, 92, 92, 0.712);
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    margin:2px 15px;
+}
+.navbar ul li:first-child{
+    font-size: 28px;
+    margin-top: 8px;
+}
+.navbar ul li:nth-child(2){
+    margin-top:7px;
+    font-size: 18px;
+}
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.search button{
+    background-color:white;
+    font-size: 18px;
+    padding:7px 9px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(17, 99, 17);
+    border: 3px solid green;
+    border-radius: 6px;
+ margin:10px 0px;
+}
+.search button:hover{
+    color: white;
+  background-color: rgba(241, 236, 236, 0.438);;
+}
+.search input{
+    font-size: 18px;
+    margin:10px 6px 10px 12px;
+    padding: 7px 9px;
+    width:270px;
+    border-radius: 6px;
+}
+.addTitle input{
+    font-size: 18px;
+    margin:2px 1px 12px 1px; 
+    padding: 8px 9px;
+    border-radius: 4px;
+}
+.heading{
+    font-size: 40px;
+    margin:15px 12px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.card{
+    width:40vw;
+    border: 2px solid rgb(245, 243, 243);
+    padding:20px 20px;
+margin:8px 12px;
+}
+.card-title{
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.card-title1{
+   
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-body textarea{
+    padding:8px;
+    font-size: 17px;
+    border: 2px solid rgb(245, 243, 243);
+}
+.btn-note{
+    width:10vw;
+    font-size: 15px;
+    margin-top:12px ;
+    padding:10px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid blue;
+    background-color: rgb(101, 101, 247);
+}
+.btn{
+    width:10vw;
+    font-size: 15px;
+    margin:14px 0px 6px 0px;
+    padding:10px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid blue;
+    background-color: rgb(101, 101, 247);
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(195, 195, 245);
+}
+.btn-note:hover{
+    color: black;
+    background-color: rgb(195, 195, 245);
+}
+
+.note-card{
+    margin:7px 12px;
+    min-width:20vw;
+    max-width: 40vw;
+    min-height: 70px;
+    border: 2px solid rgb(245, 243, 243);
+    padding:20px 20px;
+    height: auto;
+}
+
+#notes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:0 9px;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right:2%;
+    top:8px;
+}
+.line{
+    width:33px;
+    background-color: white;
+    height:4px;
+    margin:5px 3px;
+}
+.h-nav{
+    height:50px;
+}
+.v-class{
+    opacity: 0;
+}

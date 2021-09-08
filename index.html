@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivefile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="navbar h-nav">
+            <ul>
+                <li>Magic Notes</li>
+                <li class="second-item v-class"><a href="#Home">Home</a></li>
+            </ul>
+            <div class="search v-class">
+                <input type="text" class="search" placeholder="Search" id="searchText">
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    <div class="container">
+        <h1 class="heading" id="first">Welcome To Magic Notes</h1>
+        <div class="card">
+            <div class="addTitle">
+                <div class="card-title1">Add a title</div>
+                <input type="text" id="Title" placeholder="Add Title">
+            </div>
+            <div class="card-title1">Add a note</div>
+            <div class="card-body">
+                <textarea name="Addnote" id="add-txt" ></textarea>
+                <button class="add-btn btn-note" id="add-note">Add Note</button>
+            </div>
+        </div>
+    <h1 class="heading">Your Notes</h1>
+    <div id="notes">
+    </div>
+</div>
+<script src="js1.js"></script>
+</body>
+
+</html>
